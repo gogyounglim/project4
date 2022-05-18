@@ -12,14 +12,23 @@ img{width: 100%; height: 100%;}
 #top{width: 1900px ;height: 120px; position: absolute;}
 .logo{margin:20px 0 0 850px; width: 190px;height: 120px;}
 
-#slider{width: 1900px; height: 970px; background-image:url(../img/main/5.jpg); background-attachment: fixed; }
+#slider{margin: 0 auto; width: 1900px; height: 970px; background-image:url(../img/main/5.jpg); background-attachment: fixed; }
 .sliderText {color: white; width: 800px; height: 500px; float: right; margin: 200px 0 0 -500px; font-size: 20px;}
 .sliderText h1{font-size: 80px;}
 
-#container1{width: 1900px; height: 1300px; background-color: blue; }
-.container1_1{width: 1180px; height: 1300px; background-color:wheat; margin:0 auto; text-align: center;}
-.container1_1topText{width: 800px; height: 200px; background-color: aqua; margin: 0 auto; padding-top:70px;}
-.container1_1Box1{width: 1180px; height: 300px; background-color: blueviolet;}
-.container1_1Box1 div:nth-child(1){width: 393.3px; height: 300px; background-color: aqua; float: left;}
-.container1_1Box1 div:nth-child(2){width: 393.3px; height: 300px; float: left; background-color: white; padding-top: 50px;}
-.container1_1Box1 div:nth-child(3){width: 393.3px; height: 300px; background-color: aqua; float: left;}
+#containerMain{ width: 1900px; height: 4000px; margin: 0 auto; background-color: brown;}
+
+
+
+#container1{ opacity: 0; width: 1900px; height: 900px; background-color:wheat;  text-align: center; margin: 0 auto;  }
+.container1_1{width: 1180px;height: 900px;background-color: white; margin: 0 auto;}
+.container1_1topText{width: 800px; height: 200px;  margin: 0 auto; padding-top:70px;}
+.container1_1Box1{width: 1180px; height: 300px; background-color: blueviolet; margin: 0 auto;}
+.container1_1Box1 div:nth-child(1){width: 393.3px;background-color: white;  height: 300px;  float: left;}
+.container1_1Box1 div:nth-child(2){width: 393.3px; height: 300px; float: left; background-color: white; }
+.container1_1Box1 div:nth-child(3){width: 393.3px;background-color: white; height: 300px; float: left;}
+
+#container2{width: 1900px; height: 800px; background-color: blueviolet; text-align: center; margin:  0px 0px 0 0; }
+.container2_1{width: 1180px; height: 500px; background-color: white; margin:0 auto ;}
+.container2_topText{width: 1900px; height: 300px; padding: 80px; background-color: wheat; text-align: center; margin: 150px 0 0 0; opacity: 0; }
+.container2{opacity: 0;margin: 100px;}

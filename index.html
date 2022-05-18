@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/main.css">
-    <!-- <script src="js/main.js"></script> -->
+    
 </head>
 <body>
     <header>
@@ -31,37 +32,56 @@
     </div>
 </div>
 
-<div id="container1">
-    <div class="container1_1">
-        <div class="container1_1topText">
-            <h1>Find Your Next Guitar</h1>
-        </div>
-        <div class="container1_1Box1">
-            <div></div>
-            <div>
-                <h1>Browse Guitars</h1><br>
-                <p>Find guitars by shape, woods, series and more</p>
+<div id="containerMain">
+    <div id="container1">
+        <div class="container1_1"> 
+            <div class="container1_1topText">
+                <h1>Find Your Next Guitar</h1>
             </div>
-            <div></div>
+            <div class="container1_1Box1">
+                <div>
+                    <img src="img/main/1.jpeg" alt="">
+                </div>
+                <div>
+                    <br><br><h1>Browse Guitars</h1><br><br>
+                    <p>Find guitars by shape, woods, series and more</p>
+                </div>
+                <div>
+                    <img src="img/main/2.jpeg" alt="">
+                </div>
+            <div class="container1_1Box2">
+                <div>
+                    <br><br><br><h1>The Taylor Line</h1><br><br>
+                    <p>Start here for an easy overview of our acoustic line</p>
+                </div>
+
+                <div>
+                    <img src="img/main/3.jpg" alt="">
+                </div>
+
+                <div>
+                    <br><br><h1>Acoustic Guitar Buying Guide</h1><br>
+                    <p>Discover the perfect acoustic guitar for you</p>
+                </div>
+            </div>
+        </div>
+        
         </div>
     </div>
+    <div class="container2_topText">
+        <h1>Taylor Named One of World’s Most Innovative Companies</h1><br><br>
+        <p>Fast Company magazine has recognized Taylor Guitars as one of the “Top 10 Most Innovative Companies in Manufacturing.”<br>
+             The publication cited Taylor’s global environmental efforts, including our Urban Wood initiative and the Ebony Project in Cameroon.</p>
+    </div>
+    <div id="container2">
+        <img src="img/main/테일러.jpg" alt="">
+    </div>
 </div>
-<!-- <script>
-    $(document).ready(function() {
-    $(window).scroll( function(){
-        $('#container1').each( function(i){
-            
-            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-            var bottom_of_window = $(window).scrollTop() + $(window).height();
-            
-            if( bottom_of_window > bottom_of_element ){
-                $(this).animate({'opacity':'1','margin-left':'0px'},1000);
-            }
-            
-        }); 
-    });
-});
-</script> -->
+
+
+
+
+
 
 
 
