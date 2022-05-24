@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
 
 h1{font-family: 'Cinzel', serif; }
+h2{font-family: 'Cinzel', serif; }
 
 *{margin:0; padding:0; box-sizing:border-box;  scroll-behavior: smooth;}
 
@@ -10,18 +11,21 @@ ol, ul, li {list-style-type:none;}
 img{width: 100%; height: 100%;}
 
 #top{width: 1900px ;height: 120px; position: absolute;}
-.logo{margin:20px 0 0 850px; width: 190px;height: 120px;}
+#logo{margin:20px 0 0 850px; width: 190px;height: 120px; }
+#nav{width: 100%; height: 100px; background-color: red; opacity:0; position: fixed;}
+
 
 #slider{margin: 0 auto; width: 1900px; height: 970px; background-image:url(../img/main/5.jpg); background-attachment: fixed; }
 .sliderText {color: white; width: 800px; height: 350px; float: right; margin: 300px 100px 0 0px; font-size: 20px; opacity: 0; }
 .sliderText h1{font-size: 80px;}
 
-#containerMain{ width: 1900px; height: 4000px; margin: 0 auto; background-color: brown;}
+
+#containerMain{ width: 1900px; height: 5000px; margin: 0 auto;}
 
 
 /* container1 */
-#container1{ opacity: 0; width: 1900px; height: 900px; background-color:wheat;  text-align: center; margin-top: 200px;  }
-.container1_1{width: 1180px;height: 900px;background-color: white; margin: 0 auto;}
+#container1{ opacity: 0; width: 1900px; height: 900px; background-color:#EAE5DE;  text-align: center; margin-top: 200px;  }
+.container1_1{width: 1180px;height: 900px;background-color:#EAE5DE; margin: 0 auto;}
 .container1_1topText{width: 800px; height: 200px;  margin: 0 auto; padding-top:70px;}
 .container1_1Box1{width: 1180px; height: 300px; background-color: blueviolet; margin: 0 auto;}
 .container1_1Box1 div:nth-child(1){width: 393.3px;background-color: white;  height: 300px;  float: left;}
@@ -30,27 +34,51 @@ img{width: 100%; height: 100%;}
 
 
 /* container2 */
-#container2{width: 1900px; height: 800px; background-color: blueviolet; text-align: center; margin:  100px 0px 0 0; opacity: 0;}
+#container2{width: 1900px; height: 800px; background-color: blueviolet; text-align: center;  opacity: 0;}
 .container2_1{width: 1180px; height: 500px; background-color: white; margin:0 auto ;}
-.container2_topText{width: 1900px; height: 300px; padding: 80px; background-color: wheat; text-align: center; margin: 150px 0 0 0; opacity: 0; }
-.container2Animate{width: 100% ; height: 40px; background-color: white; }
+.container2_topText{width: 1900px; height: 300px; padding: 80px; background-color: #fdfbfb; text-align: center; margin: 150px 0 0 0; opacity: 0; }
+.container2Animate{width: 100% ; height: 0px;  }
 
 /* container3 */
-.container3Animate{width: 100% ; height: 40px; background-color: white; }
-#container3{width: 1900px; height: 800px; background-color: aqua; margin-top: 200px; opacity: 0;}
+.container3Animate{width: 100% ; height: 0px;}
+#container3{width: 1900px; height: 800px; background-color: #EAE5DE; margin-top: 200px; opacity: 0;}
 
 /* container4 */
-.container4Animate{width: 100% ; height: 40px; background-color: white; }
-#container4{width: 1900px; height: 800px; background-color: bisque; margin-top: 200px; opacity: 0;}
-.container4_Text{width: 1900px; height: 150px; background-color:  white; text-align: center;}
-.container4_1{width: 1200px;height: 650px; background-color: blue; margin: 0 auto; position: relative; overflow: hidden; }
+.container4Animate{width: 100% ; height: 0px;  }
+#container4{width: 1900px; height: 750px; background-color: #fdfbfb; margin-top: 200px; opacity: 0;}
+.container4_Text{width: 1900px; height: 140px; background-color:  #fdfbfb; text-align: center; padding: 60px;}
+.container4_1{width: 1180px;height: 600px; margin: 0 auto; position: relative; overflow: hidden; }
 
 
-.slides{position: absolute; left: 0; top: 0; width: 3000px; background-color: aqua; margin-top: 130px; transition: left 0.5s ease-out;}
+.slides{position: absolute; left: 0; top: 0; width: 3000px; margin-top: 130px; transition: left 0.5s ease-out;}
 .slides li{float: left; margin:10px 10px 10px 31px ;}
 
-.slides li{width: 350px; height: 350px; background-color: red; margin: }
+.slides li{width: 350px; height: 300px;  text-align: center;}
+.slides li img{width: 350px; height: 200px;}
+.slides li p:nth-child(3){color: #777;}
+.slides li p:nth-child(2){font-size: 20px; font-weight: 550;}
 
 .controls span{position: absolute; background-color: #333; color: #fff; padding: 10px 20px; margin: 0 10px;}  
-.controls span.prev{margin: 550px 0 0 500px; }
-.controls span.next{margin: 550px 0 0 600px;}
+.controls span.prev{margin: 470px 0 0 500px; }
+.controls span.next{margin: 470px 0 0 600px;}
+
+/* container5 */
+.container5Animate{width: 100% ; height: 0px;}
+#container5{width: 1900px; height: 950px; background-color:  #EAE5DE }
+.container5_Text{width: 1180px; height: 150px; margin: 0 auto;  text-align: center; padding: 60px; opacity: 0;}
+.container5_1{width: 1180px; height: 800px; background-color:  #EAE5DE; margin: 0 auto;}
+.container5_1_Box1 div:nth-child(1){opacity: 0; margin-top :150px;}
+.container5_1_Box1 div:nth-child(2){opacity: 0; margin-top :150px;}
+.container5_1_Box1 div:nth-child(3){opacity: 0; margin-top :200px;}
+
+.container5_1_Box1{width: 1180px; height: 400px; } 
+.container5_1_Box2{width: 1180px; height: 400px; background-color: rgb(50, 60, 68);} 
+.container5_1_Box1 div{width: 32%; height: 100%; float: left;} 
+
+.container5_1_Box1 div img{width: 30%;height: 30%; margin-top: 50px; margin-bottom: 50px;  }
+.container5_1_Box1 div{text-align: center; margin-right: 10px;}
+
+#container6{width: 1900px; height: 700px; background-color:  #fdfbfb;}
+.container6_Text{width: 1180px; height: 150px; margin: 0 auto; text-align: center; padding: 50px;}
+.container6_1{width: 1180px; height: 600px; margin: 0 auto; background-color:aqua;}
+.container6_1 li{width: 500px; height: 500px;}
