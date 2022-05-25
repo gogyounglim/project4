@@ -22,8 +22,35 @@ img{width: 100%; height: 100%;}
 
 #containerMain{ width: 1900px; height: 5000px; margin: 0 auto;}
 
+#navbar {
+    background-color: #333;
+    position: fixed;
+    top: -100px;
+    width: 100%;
+    height: 80px;
+    display: block;
+    transition: top 0.3s;
+  }
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
 
 /* container1 */
+.container1Animate{width: 100% ; height: 0px;  }
 #container1{ opacity: 0; width: 1900px; height: 900px; background-color:#EAE5DE;  text-align: center; margin-top: 200px;  }
 .container1_1{width: 1180px;height: 900px;background-color:#EAE5DE; margin: 0 auto;}
 .container1_1topText{width: 800px; height: 200px;  margin: 0 auto; padding-top:70px;}
