@@ -7,12 +7,12 @@ $(document).ready(function() {
 
 
 
-$(document).ready(function() {
-    
 
+
+$(document).ready(function() {
 
     $(window).scroll(function(){
-        $('.container1_1topText').each( function(){
+        $('.container1_1topText').each( function() {
             
             var bottom_of_element = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -20,8 +20,7 @@ $(document).ready(function() {
             if( bottom_of_window > bottom_of_element ){
                 $('#container1').animate({'opacity':'1','margin':'0 auto'},1000);  
             }
-            
-
+        
         }); 
     });
 
@@ -67,6 +66,20 @@ $(document).ready(function() {
             }
             
         }); 
+
+
+
+    $('#container5').each( function(){
+        
+        var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+        
+        if( bottom_of_window > bottom_of_element ){
+            $('#container6').animate({'opacity':'1','margin':'0 auto'},1000);
+            
+        }
+        
+    }); 
     });
 
     
@@ -188,6 +201,59 @@ function scrollFunction() {
       document.getElementById("navbar").style.top = "-80px";
     }
   }
+
+
+
+// 라디오 버튼
+  $(function(){
+    $('.radiobt button:nth-of-type(1)').click (() => {
+        $('.container6_1review1').fadeIn();
+        $('.container6_1review2').hide();
+        $('.container6_1review3').hide();
+        $('.container6_1review4').hide();
+
+        $('.radiobt button:nth-of-type(1)').css('background-color','rgb(109, 109, 109)')
+        $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(4)').css('background-color','#999')
+    });
+
+    $('.radiobt button:nth-of-type(2)').click (() => {
+        $('.container6_1review1').hide();
+        $('.container6_1review2').fadeIn();
+        $('.container6_1review3').hide();
+        $('.container6_1review4').hide();
+
+        $('.radiobt button:nth-of-type(2)').css('background-color','rgb(109, 109, 109)')
+        $('.radiobt button:nth-of-type(1)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(4)').css('background-color','#999')
+    });
+
+    $('.radiobt button:nth-of-type(3)').click (() => {
+        $('.container6_1review1').hide();
+        $('.container6_1review2').hide();
+        $('.container6_1review3').fadeIn();
+        $('.container6_1review4').hide();
+
+        $('.radiobt button:nth-of-type(3)').css('background-color','rgb(109, 109, 109)')
+        $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(1)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(4)').css('background-color','#999')
+    });
+
+    $('.radiobt button:nth-of-type(4)').click (() => {
+        $('.container6_1review1').hide();
+        $('.container6_1review2').hide();
+        $('.container6_1review3').hide();
+        $('.container6_1review4').fadeIn();
+
+        $('.radiobt button:nth-of-type(4)').css('background-color','rgb(109, 109, 109)')
+        $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(1)').css('background-color','#999')
+    });
+});
 
 
 
