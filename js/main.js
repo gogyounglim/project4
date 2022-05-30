@@ -109,6 +109,15 @@ $(document).ready(function() {
 // 메인페이지 슬라이드
 
 // next
+
+// if(matchMedia("screen and (max-width: 1200px)").matches){
+    
+// }
+// else{
+
+// }
+
+
 $(function() {
     $('.next').click(function(){
         if($('.slides').css('left')=='-390px' ){
