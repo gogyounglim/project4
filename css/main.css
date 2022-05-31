@@ -73,8 +73,8 @@ img{width: 100%; height: 100%;}
 
 /* .container1_1Box1:nth-child() */
 /* container2 */
-#container2{width: 100%; height: 100%;  text-align: center;  opacity: 0;}
-.container2_1{width: 1180px; height: 80%; background-color: white; margin:0 auto ;}
+#container2{width: 100%; height: 300px;  text-align: center;  opacity: 0;}
+.container2_1{width: 1180px; height: 70%; background-color: white; margin:0 auto ;}
 .container2_topText{width: 100%; height: 230px; padding: 45px; background-color: #fdfbfb; text-align: center; margin: 150px 0 0 0; opacity: 0; }
 .container2Animate{width: 100% ; height: 0px;  }
 
@@ -201,7 +201,7 @@ footer p{color: rgb(230, 227, 227);}
 .container1_1Box1 div:nth-child(2){width: 32%; height: 250px; float: left; background-color: white; }
 .container1_1Box1 div:nth-child(3){width: 32%;background-color: white; height: 250px; float: left;}
 
-#container2{width: 100%; height: 800px; background-color: blueviolet; text-align: center;  opacity: 0;}
+#container2{width: 100%; height: 500px; background-color: blueviolet; text-align: center;  opacity: 0;}
 .container2_1{width: 1180px; height: 80%; background-color: white; margin:0 auto ;}
 .container2_topText{width: 100%; height: 300px; padding: 80px; background-color: #fdfbfb; text-align: center; margin: 150px 0 0 0; opacity: 0; }
 .container2Animate{width: 100% ; height: 0px;  }
@@ -328,8 +328,8 @@ footer p{color: rgb(230, 227, 227);}
 /* container2 */
 
 
-#container2{width: 100%; height: 70%; background-color: blueviolet; text-align: center;  opacity: 0;}
-.container2_1{width: 100%; height: 80%; background-color: white; margin:0 auto ;}
+#container2{width: 100%; height: 900px; background-color: blueviolet; text-align: center;  opacity: 0;}
+.container2_1{width: 100%; height: 50%; background-color: white; margin:0 auto ;}
 .container2_topText{width: 100%; height: 300px; padding: 80px; background-color: #fdfbfb; text-align: center; margin: 150px 0 0 0; opacity: 0; }
 .container2Animate{width: 100% ; height: 0px;  }
 
