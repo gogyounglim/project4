@@ -51,7 +51,7 @@ img{width: 100%; height: 100%;}
   }
 
 @media(min-width:320px) and (max-width:768px){
-  #slider{margin: 0 auto; width: 100%; height: 970px; background-image:url(../img/main/5.jpg); background-attachment: fixed; background-size:cover; }
+  #slider{margin: 0 auto; width: 100%; height: 600px; background-image:url(../img/main/5.jpg); background-attachment: fixed; background-size:cover; }
   .sliderText {color: white; width:100%; height: 350px; float: right; margin: 300px 0px 0 0px; font-size: 20px; opacity: 0; }
   .sliderText h1{font-size: 3rem;}
   .sliderText p{color: white;}
@@ -73,7 +73,7 @@ img{width: 100%; height: 100%;}
 
 /* .container1_1Box1:nth-child() */
 /* container2 */
-#container2{width: 100%; height: 800px;  text-align: center;  opacity: 0;}
+#container2{width: 100%; height: 100%;  text-align: center;  opacity: 0;}
 .container2_1{width: 1180px; height: 80%; background-color: white; margin:0 auto ;}
 .container2_topText{width: 100%; height: 230px; padding: 45px; background-color: #fdfbfb; text-align: center; margin: 150px 0 0 0; opacity: 0; }
 .container2Animate{width: 100% ; height: 0px;  }
@@ -183,7 +183,7 @@ footer p{color: rgb(230, 227, 227);}
 
 
 @media(min-width:768px) and (max-width:1024px){
-  #slider{margin: 0 auto; width: 100%; height: 970px; background-image:url(../img/main/5.jpg); background-attachment: fixed; }
+  #slider{margin: 0 auto; width: 100%; height: 970px; background-image:url(../img/main/5.jpg); background-attachment: fixed;background-size:cover; }
   .sliderText {color: white; width: 800px; height: 350px; float: right; margin: 300px 100px 0 0px; font-size: 20px; opacity: 0; }
   .sliderText h1{font-size: 80px;}
   .sliderText p{color: white;}
@@ -201,8 +201,6 @@ footer p{color: rgb(230, 227, 227);}
 .container1_1Box1 div:nth-child(2){width: 32%; height: 250px; float: left; background-color: white; }
 .container1_1Box1 div:nth-child(3){width: 32%;background-color: white; height: 250px; float: left;}
 
-.container1_1Box1:nth-child()
-/* container2 */
 #container2{width: 100%; height: 800px; background-color: blueviolet; text-align: center;  opacity: 0;}
 .container2_1{width: 1180px; height: 80%; background-color: white; margin:0 auto ;}
 .container2_topText{width: 100%; height: 300px; padding: 80px; background-color: #fdfbfb; text-align: center; margin: 150px 0 0 0; opacity: 0; }
@@ -304,6 +302,7 @@ footer p{color: rgb(230, 227, 227);}
 .footer_2 span{color:rgb(133, 4, 4) ;}
 .footer_2 span:hover{cursor: pointer; color: #777; transition: 0.5s;}
 .footer_3{width: 100%; height: 150px; text-align: center; margin: 0 auto; font-size: 12px;}
+
 }
 
 
@@ -325,10 +324,12 @@ footer p{color: rgb(230, 227, 227);}
 .container1_1Box1 div:nth-child(2){width: 32%; height: 300px; float: left; background-color: white; }
 .container1_1Box1 div:nth-child(3){width: 32%;background-color: white; height: 300px; float: left;}
 
-.container1_1Box1:nth-child()
+
 /* container2 */
-#container2{width: 100%; height: 800px; background-color: blueviolet; text-align: center;  opacity: 0;}
-.container2_1{width: 1180px; height: 80%; background-color: white; margin:0 auto ;}
+
+
+#container2{width: 100%; height: 70%; background-color: blueviolet; text-align: center;  opacity: 0;}
+.container2_1{width: 100%; height: 80%; background-color: white; margin:0 auto ;}
 .container2_topText{width: 100%; height: 300px; padding: 80px; background-color: #fdfbfb; text-align: center; margin: 150px 0 0 0; opacity: 0; }
 .container2Animate{width: 100% ; height: 0px;  }
 
@@ -430,9 +431,9 @@ footer p{color: rgb(230, 227, 227);}
 .footer_2 span{color:rgb(133, 4, 4) ;}
 .footer_2 span:hover{cursor: pointer; color: #777; transition: 0.5s;}
 .footer_3{width: 100%; height: 150px; text-align: center; margin: 0 auto; font-size: 12px;}
-
-}
+    }
  
+
 @media(min-width:1024px) and (max-width:1200px){
   .container1_1Box1{width: 1000px; height: 300px;  margin: 0 auto;}
   .container4_1{width: 1000px;height: 400px; margin: 0 auto; position: relative; overflow: hidden;  justify-content: space-between; align-items: center;}
