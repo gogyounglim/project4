@@ -35,7 +35,7 @@ a{text-decoration: none; color: black;}
 
 
 
-#navbarimg{width: 130px; height: 90px; margin-left: 20%; }
+#navbarimg{width: 100px; height: 90px; margin-left: 10%; }
 /* #navbarimg img{width: 100%; height: 100%;} */
 .navText{width: 75%;height: 100%;  float: right; margin-top: -90px; text-align: center;}
 #navbar {
@@ -68,14 +68,14 @@ a{text-decoration: none; color: black;}
 @media(min-width:320px) and (max-width:768px){
   #slider{margin: 0 auto; width: 100%; height: 100vh; background-image:url(../img/main/5.jpg); background-attachment: fixed; background-size:cover; background-repeat: no-repeat; background-position: center; }
 
-  .sliderText {color: white; width:100%; height: 350px; float: right; margin: 300px 0px 0 0px; font-size: 20px; opacity: 0; }
+  .sliderText {color: white; width:80%; height: 350px; float: right; margin: 200px 30px 0 0; font-size: 20px; opacity: 0; }
   .sliderText h1{font-size: 3rem;}
   .sliderText p{color: white;}
   #containerMain{ width: 100%; height: 5000px; margin: 0 auto;}
-  #logo{margin:15px 0 0 30%; width: 190px;height: 120px; }
+  #logo{margin:0 auto; width: 190px;height: 120px; }
     h1{font-size:1.3rem;}
     h2{font-size: 1rem;}
-    p{font-size: 0.3rem;}
+    p{font-size: 12px;}
 /* container1 */
 .container1Animate{width: 100% ; height: 0px;  }
 #container1{ opacity: 0; width: 100%; height: 500px; background-color:#EAE5DE;  text-align: center; margin-top: 200px;  }
@@ -110,15 +110,15 @@ a{text-decoration: none; color: black;}
 
 /* container3 */
 .container3Animate{width: 100% ; height: 0px;}
-#container3{width: 100%; height: 550px; background-color: #EAE5DE; margin-top: 200px; opacity: 0;  }
+#container3{width: 100%; height: 850px; background-color: #EAE5DE; margin-top: 200px; opacity: 0;  }
 .container3Text{width: 100%; height: 20px; padding: 50px; text-align: center; margin: 0 auto; line-height: 10px;}
 .container3_1Text{text-align: center; }
 
 
 .container3_2 p{color: black; }
 
-.container3_1{width: 45%; height: 30%; float: left; margin-top:70px; margin-left: 20px; margin-right: 10px;}
-.container3_2{width: 45%; height: 500px; float: right; }
+.container3_1{width: 90%; height: 30%; float: left; margin-top:10px; margin-left: 20px; margin-right: 10px;}
+.container3_2{width: 80%; height: 400px; margin-top: 50px; float: left; margin-left: 50px;  }
 .container3_1 p{font-size: 5px;}
 /* container4 */
 .container4Animate{width: 100% ; height: 0px;  }
@@ -155,25 +155,25 @@ a{text-decoration: none; color: black;}
 /* container5 */
 .container5Animate{width: 100% ; height: 0px;}
 #container5{width: 100%; height: 1050px; background-color:  #EAE5DE }
-.container5_Text{width: 65%; height: 150px; margin: 0 auto;  text-align: center; padding: 60px; opacity: 0;}
+.container5_Text{width: 85%; height: 80px; margin: 0 auto;  text-align: center; padding: 60px; opacity: 0;}
 .container5_1{width: 100%; height: 600px; background-color:  #EAE5DE; margin: 0 auto; }
-.container5_1_Box1 div:nth-child(1){opacity: 0; margin-top :150px; margin-left: 30px;}
-.container5_1_Box1 div:nth-child(2){opacity: 0; margin-top :150px; margin-left: 30px;}
-.container5_1_Box1 div:nth-child(3){opacity: 0; margin-top :200px; margin-left: 30px;}
+.container5_1_Box1 div:nth-child(1){opacity: 0; margin-top :150px;}
+.container5_1_Box1 div:nth-child(2){opacity: 0; margin-top :150px;}
+.container5_1_Box1 div:nth-child(3){opacity: 0; margin-top :200px; }
 .container5_1_Box1 img:hover{margin-top: 30px; transition: 0.5s;}
 
-.container5_1_Box1{width: 100%; height: 1050px; margin: 0 auto; } 
+.container5_1_Box1{width: 80%; height: 1050px; margin: 0 auto;} 
 .container5_1_Box1 div{width: 320px; height: 300px; float: left; margin-right: 10px; } 
 
 .container5_1_Box1 div img{width: 25%;height: 25%; margin-top: 50px; margin-bottom: 50px;  }
 .container5_1_Box1 div{text-align: center; align-items: center; }
 
 #container6{width: 100%; height: 500px; background-color:  #fdfbfb; opacity: 0; margin-top: 130px;}
-#container6 img{width: 100px; height: 50px;}
+#container6 img{width: 150px; height: 50px;}
 #container6 img:hover{opacity: 0.7; transition: 1s;}
 
-.container6_Text{width: 65%; height: 10px; margin: 0 auto; text-align: center; padding: 30px;}
-.container6_1{width: 65%; height: 400px; margin: 0 auto;}
+.container6_Text{width: 85%; height: 10px; margin: 0 auto; text-align: center; padding: 30px;}
+.container6_1{width: 85%; height: 400px; margin: 0 auto;}
 .container6_1 li{width: 65%; height: 500px;}
 
 
@@ -188,9 +188,9 @@ a{text-decoration: none; color: black;}
 .radiobt button:nth-child(1){background-color: rgb(109, 109, 109);}
 
 
-#container7{width: 100%; height: 850px;  background-color:  #EAE5DE  }
+#container7{width: 100%;  background-color:  #EAE5DE ;opacity: 0; margin-top: 100px; }
 
-.container7Text{width: 65%; height: 850px; margin: 0 auto;}
+.container7Text{width: 65%;  padding-bottom: 40px; margin: 0 auto;}
 
 
 
@@ -215,7 +215,7 @@ footer p{color: rgb(230, 227, 227);}
 @media(min-width:768px) and (max-width:1024px){
   /* #slider{margin: 0 auto; width: 100%; height: 970px; background-image:url(../img/main/5.jpg); background-attachment: fixed;background-size:cover; } */
   #slider{margin: 0 auto; width: 100%; height: 100vh; background-image:url(../img/main/5.jpg); background-attachment: fixed; background-size:cover; background-repeat: no-repeat; background-position: center; }
-  .sliderText {color: white; width: 800px; height: 350px; float: right; margin: 300px 100px 0 0px; font-size: 20px; opacity: 0; }
+  .sliderText {color: white; width: 800px; height: 350px; float: right; margin: 300px 300px 0 0px; font-size: 20px; opacity: 0; }
   .sliderText h1{font-size: 80px;}
   .sliderText p{color: white;}
   #containerMain{ width: 100%; height: 5000px; margin: 0 auto;}
@@ -234,7 +234,7 @@ footer p{color: rgb(230, 227, 227);}
 
 #container2{width: 100%; height: 500px; background-color: blueviolet; text-align: center;  opacity: 0;}
 .container2_1{width: 1180px; height: 80%; background-color: white; margin:0 auto ;}
-.container2_topText{width: 100%; height: 300px; padding: 80px; background-color: #fdfbfb; text-align: center; margin: 150px 0 0 0; opacity: 0; }
+.container2_topText{width: 100%; height: 300px; padding: 100px; background-color: #fdfbfb; text-align: center; margin: 150px 0 0 0; opacity: 0; }
 .container2Animate{width: 100% ; height: 0px;  }
 
 /* container3 */
@@ -313,7 +313,7 @@ footer p{color: rgb(230, 227, 227);}
 .radiobt button:nth-child(1){background-color: rgb(109, 109, 109);}
 
 
-#container7{width: 100%; height: 1000px;  background-color:  #EAE5DE  }
+#container7{width: 100%; height: 1000px;  background-color:  #EAE5DE ;opacity: 0; margin-top: 100px; }
 
 .container7Text{width: 65%; height: 850px; margin: 0 auto;}
 
@@ -444,9 +444,9 @@ footer p{color: rgb(230, 227, 227);}
 .radiobt button:nth-child(1){background-color: rgb(109, 109, 109);}
 
 
-#container7{width: 100%; height: 850px;  background-color:  #EAE5DE  }
+#container7{width: 100%;   background-color:  #EAE5DE ;opacity: 0; margin-top: 100px; }
 
-.container7Text{width: 65%; height: 850px; margin: 0 auto;}
+.container7Text{width: 65%; padding-bottom: 100px; margin: 0 auto;}
 
 
 

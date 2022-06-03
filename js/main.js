@@ -12,6 +12,19 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     $(window).scroll(function(){
+        $('#container6').each( function() {
+            
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window > bottom_of_element ){
+                $('#container7').animate({'opacity':'1','margin':'0 auto'},1000);  
+            }
+        
+        }); 
+    });
+
+    $(window).scroll(function(){
         $('.container1_1topText').each( function() {
             
             var bottom_of_element = $(this).offset().top + $(this).outerHeight();
