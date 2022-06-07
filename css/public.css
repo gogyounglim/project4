@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* h1폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+
+h1{font-family: 'Cinzel', serif; }
+h2{font-family: 'Cinzel', serif; }
+
+h1{font-size: 35px;}
+p{color: #777;}
+hr{width: 80px; margin: 0 auto; border: solid 2px rgb(133, 4, 4);}
+
+#Xbt:after {content: "\00d7"; font-size:30pt;line-height:25px;}
+.container7Text h1{text-align: center;}
+
+
+*{margin:0; padding:0; box-sizing:border-box;  scroll-behavior: smooth;}
+
+ol, ul, li {list-style-type:none;}
+img{width: 100%; height: 100%;}
+a{text-decoration: none; color: black;}
+
+
+#nav{width: 100%; height: 100px; background-color: red; opacity:0; position: fixed; z-index: 99;}
+
+#navbarimg{width: 100px; height: 90px; margin-left: 10%; }
+.navText{width: 55%;height: 100%; margin-right: 200px; float: right; margin-top: -90px; text-align: center;}
+.navText2{float: right; margin-top: -90px; margin-right: 20px; display: none;}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 28px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: rgb(133, 4, 4);
+    transition: 0.7s;
+  }
+  
+  #showRight{font-size: 45px; }
+  .cbp-spmenu {
+	background: rgb(99, 99, 99);
+	position: fixed;
+}
+
+.cbp-spmenu h3 {
+	color: #e5f1f8;
+	font-size: 1.9em;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: rgb(66, 66, 66);
+}
+
+.cbp-spmenu a {
+	display: block;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+	background: #EAE5DE; color:rgb(133, 4, 4); transition: 0.3s; font-size: 21px; font-weight: bold;
+}
+
+.cbp-spmenu a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+	border-bottom: 1px solid #ffffff;
+	padding: 1em;
+}
+
+.cbp-spmenu-horizontal {
+	width: 100%;
+	height: 150px;
+	left: 0;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.cbp-spmenu-horizontal h3 {
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+.cbp-spmenu-horizontal a {
+	float: left;
+	width: 20%;
+	padding: 0.8em;
+	border-left: 1px solid #258ecd;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-right {
+	right: -240px;
+}
+
+.cbp-spmenu-right .cbp-spmenu-open {
+	right: 0px;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}

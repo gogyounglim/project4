@@ -1,7 +1,23 @@
 // 메인기본효과 
 
+
+
 $(document).ready(function() {
     $('.sliderText').animate({'opacity':'1'},1000);
+    
+
+
+    $('#showRight').click(function(){
+            $(".cbp-spmenu-right").css("right","0");
+    });
+    $('#Xbt').click(function(){
+        $(".cbp-spmenu-right").css("right","-240px");
+    });
+
+
+
+
+
 });
 
 
@@ -10,6 +26,8 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
+
+
 
     $(window).scroll(function(){
         $('#container6').each( function() {
@@ -292,19 +310,19 @@ var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
 		body = document.body;
 
 
-showRight.onclick = function() {
-    classie.toggle( this, 'active' );
-    classie.toggle( menuRight, 'cbp-spmenu-open' );
-    disableOther( 'showRight' );
-};
+// showRight.onclick = function() {
+//     classie.toggle( this, 'active' );
+//     classie.toggle( menuRight, 'cbp-spmenu-open' );
+//     disableOther( 'showRight' );
+// };
 
-function disableOther( button ) {
+// function disableOther( button ) {
 
-	if( button !== 'showRight' ) {
-		classie.toggle( showRight, 'disabled' );
-	};
+// 	if( button !== 'showRight' ) {
+// 		classie.toggle( showRight, 'disabled' );
+// 	};
 
-}
+// }
 
 
 
