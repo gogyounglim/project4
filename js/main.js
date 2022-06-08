@@ -14,14 +14,7 @@ $(document).ready(function() {
         $(".cbp-spmenu-right").css("right","-240px");
     });
 
-
-
-
-
 });
-
-
-
 
 
 
