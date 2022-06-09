@@ -51,21 +51,97 @@ footer p{color: rgb(230, 227, 227);}
 .centerimgText a:hover:after { transform: scaleX(1); }
 
 
+
+
+@media(min-width:320px) and (max-width:768px){
+  
+}
+
+
+@media(min-width:768px) and (max-width:1024px){  
+  h1{font-size: 30px;}
+  #container1{width: 100%; height: 600px; display: flex; margin-top: 80px;}
+  #container1_1{flex-direction: row;flex-basis: 50%; flex-wrap: nowrap; background-color: black; ;}
+  #container1_2{flex-direction: row;flex-basis: 50%;  flex-wrap: nowrap; background-color: black;}
+  .container1_1Text{
+    float: right; width: 90%; height: 400px;
+    margin-top: 150px; display: flex; flex-direction: column; margin-right:40px; padding: 5px;}
+
+  .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 50.333%; color: white; }
+  .container1_1TextFlex p{color: rgb(209, 209, 209);}
+  .container1_1TextFlex button{width: 130px; height: 45px; background-color:rgb(133, 4, 4);color: white; font-size: 12px; }
+  .container1_1TextFlex button :hover{}
+
+  .container2Text{margin: 28px; }
+  .container2Text h1{font-size: 32px;}
+  .container2Text a{font-size: 14px; font-style:italic; text-decoration: underline;}
+  .container2Text a:hover{color: rgb(133, 4, 4); transition: 0.3s;}
+  .container2_1{width:95% ; height: 400px; margin: 0 auto; position: relative; overflow: hidden;  justify-content: space-between; align-items: center;}
+  .slides{  position: absolute; left: 0; top: 0; width: 3000px;transition: left 0.5s ease-out; z-index: 0; margin-top: 70px;}
+  .slides img:hover{opacity: 0.8; transition: 0.5s;}
+  .slides li{float: left; }
+  
+  .slides li{width: 300px; height: 200px;  text-align: center;}
+  .slides li img{width: 250px; height: 150px; }
+  .slides li img:hover{cursor: pointer;}
+  .slides li p:nth-child(3){color: #777;}
+  .slides li p:nth-child(2){font-size: 20px; font-weight: 550; color: black;}
+  
+  .controls span{ top:10%;  font-size: 25px; color:#fff; line-height: 42px;
+    background: rgba(0,0,0,0.6); cursor: pointer; height: 50px; transform: translateY(-50%); opacity: 0.4;
+     float: right;}  
+    .controls span:hover{opacity: 0.7; transition: 0.5s;}
+  .controls1 span{ top:50%;  font-size: 25px; color:#fff; line-height: 42px;
+      background: rgba(0,0,0,0.6); cursor: pointer; height: 50px; transform: translateY(-50%); opacity: 0.4;
+        }  
+      .controls span:hover{opacity: 0.7; transition: 0.5s;}
+  .controls1 span:nth-last-of-type(1){float: right; margin-top: 100px;}
+  .controls1 span:nth-last-of-type(2){float: left; margin-top: 100px;}
+  #centerimg{width: 100%;height: 600px;}
+  .centerimgText{width: 80%; height: 300px; margin-top: -450px; margin-left: 50px;}
+
+  .centerimgText h1{color: white; font-size: 40px;}
+  .centerimgText p{color: #EAE5DE;}
+
+  #container3{width: 100%; height: 550px;  display: flex; flex-direction: row; background-color: black;}
+  .container3Flex1{width: 80%;}
+  .container3Flex2{width: 100%; background-color: black;  color: white; width: 80%; height: 200px; margin-top: 70px; margin-left: 30px;} 
+  .container3Flex2 h2{font-size: 21px;}
+  .container3Flex2 p{font-style: italic; }
+  
+
+  #container4{width: 100%; height: 550px; background-color: #fdfbfb; display: flex; flex-direction: row;}}
+  .container4Flex1{width: 100%; background-color:  #EAE5DE;}
+  .container4Flex2{width: 103%;}
+  .container4Flex1Text{width: 80%; height: 400px; padding: 50px;} 
+  .container4Flex1Text p{color: black;}
+  .container4Flex1Text h2{font-size: 17px;}
+  .container4Flex1Text_ul li{list-style: disc; list-style-position: outside; float: left;color: #666; margin-left: 42px; margin-bottom: 15px; font-size: 13px;}
+  .container4Flex1Text_1{margin-bottom: 60px;}
+  
+  
+  
+  #container5{width: 100%; height: 300px; background-color:  #fdfbfb;}  
+  .container5Text{width: 900px; height: 250px; margin-left: 100px;
+  
+  }
+
+
 @media(min-width:1024px){
     h1{font-size: 40px;}
     #container1{width: 100%; height: 600px; display: flex; margin-top: 80px;}
     #container1_1{flex-direction: row;flex-basis: 50%; flex-wrap: nowrap; background-color: black; ;}
-    #container1_2{flex-direction: row;flex-basis: 50%;  flex-wrap: nowrap; background-color: beige;}
+    #container1_2{flex-direction: row;flex-basis: 50%;  flex-wrap: nowrap; background-color: black;}
     .container1_1Text{
-      float: right; width: 90%; height: 400px; background-color: white;
-      margin-top: 150px; display: flex; flex-direction: column; margin-right: 50px;}
+      float: right; width: 90%; height: 400px;
+      margin-top: 150px; display: flex; flex-direction: column; margin-right:40px; padding: 5px;}
 
-    .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 33.333%; color: white; }
+    .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 50.333%; color: white; }
     .container1_1TextFlex p{color: rgb(209, 209, 209);}
     .container1_1TextFlex button{width: 130px; height: 45px; background-color:rgb(133, 4, 4);color: white; font-size: 12px; }
     .container1_1TextFlex button :hover{}
 
-    .container2Text{margin: 40px; }
+    .container2Text{margin: 28px; }
     .container2Text h1{font-size: 32px;}
     .container2Text a{font-size: 14px; font-style:italic; text-decoration: underline;}
     .container2Text a:hover{color: rgb(133, 4, 4); transition: 0.3s;}
@@ -91,7 +167,7 @@ footer p{color: rgb(230, 227, 227);}
     .controls1 span:nth-last-of-type(1){float: right; margin-top: 100px;}
     .controls1 span:nth-last-of-type(2){float: left; margin-top: 100px;}
     #centerimg{width: 100%;height: 600px;}
-    .centerimgText{width: 50%; height: 200px; margin-top: -450px; margin-left: 50px;}
+    .centerimgText{width: 70%; height: 400px; margin-top: -450px; margin-left: 50px;}
   
     .centerimgText h1{color: white; font-size: 50px;}
     .centerimgText p{color: #EAE5DE;}
@@ -105,12 +181,28 @@ footer p{color: rgb(230, 227, 227);}
     #container4{width: 100%; height: 550px; background-color: #fdfbfb; display: flex; flex-direction: row;}}
     .container4Flex1{width: 100%; background-color:  #EAE5DE;}
     .container4Flex2{width: 103%;}
-    .container4Flex1Text{width: 80%; height: 400px;  margin: 80px;} 
+    .container4Flex1Text{width: 80%; height: 400px; padding: 50px;} 
     .container4Flex1Text p{color: black;}
     .container4Flex1Text h2{font-size: 17px;}
     .container4Flex1Text_ul li{list-style: disc; list-style-position: outside; float: left;color: #666; margin-left: 42px; margin-bottom: 15px; font-size: 13px;}
-
+    .container4Flex1Text_1{margin-bottom: 60px;}
+    
+    
+    
     #container5{width: 100%; height: 300px; background-color:  #fdfbfb;}  
     .container5Text{width: 900px; height: 250px; margin-left: 100px; } 
+
+
+
+    @media(min-width:768px) and (max-width:1100px){
+      #centerimg{width: 100%;height: 400px;}
+      .centerimgText{width: 70%; height: 300px; padding-top :120px; margin-left: 50px;}
+      #container3{width: 100%; height: 430px;  display: flex; flex-direction: row; background-color: black;}
+      .container3Flex2{width: 100%; background-color: black;  color: white; width: 80%; height: 200px; margin-top: 30px; margin-left: 30px;} 
+      #container4{width: 100%; height: 450px; background-color: #fdfbfb; display: flex; flex-direction: row;}
+      .container4Flex1Text{width: 100%; height: 400px; padding: 30px; } 
+      .container4Flex1Text_1{margin-bottom: 30px;}
+      
+    }
 
 

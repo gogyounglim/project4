@@ -4,15 +4,6 @@
 
 $(document).ready(function() {
     $('.sliderText').animate({'opacity':'1'},1000);
-    
-
-
-    $('#showRight').click(function(){
-            $(".cbp-spmenu-right").css("right","0");
-    });
-    $('#Xbt').click(function(){
-        $(".cbp-spmenu-right").css("right","-240px");
-    });
 
 });
 
