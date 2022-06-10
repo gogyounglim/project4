@@ -10,13 +10,14 @@
     z-index: 1;  
   } 
   h2{font-size: 15px;}
+  button{border: 0; outline: 0;}
 
 img{width: 100%; height: 100%;}
 
-#containerMain{ width: 100%; height: 5000px; margin: 0 auto; }
+#containerMain{ width: 100%;  margin: 0 auto; }
 body{background-color: #EAE5DE;}
 
-footer{width: 100%; height: 500px; background-color: black; text-align: center; }
+/* footer{width: 100%; height: 500px; background-color: black; text-align: center; }
 footer p{color: rgb(230, 227, 227);}
 .footer_1{width: 65%;height: 250px;  display: flex; flex-direction: row;  margin: 0 auto; font-weight: 700;}
 
@@ -29,7 +30,7 @@ footer p{color: rgb(230, 227, 227);}
 .footer_2{width: 100%; height: 100px; text-align: center; margin: 0 auto; font-size: 20px;}
 .footer_2 span{color:rgb(133, 4, 4) ;}
 .footer_2 span:hover{cursor: pointer; color: #777; transition: 0.5s;}
-.footer_3{width: 100%; height: 150px; text-align: center; margin: 0 auto; font-size: 12px;}
+.footer_3{width: 100%; height: 150px; text-align: center; margin: 0 auto; font-size: 12px;} */
 /* #top{width: 100% ;height: 90px; background-color:black ;; text-align: center;margin-bottom: 50px; }
 #top img{height: 80px; width: 120px;  } */
 
@@ -54,23 +55,91 @@ footer p{color: rgb(230, 227, 227);}
 
 
 @media(min-width:320px) and (max-width:768px){
+  h1{font-size: 30px;}
+  #container1{width: 100%; height: 380px;  margin-top: 80px;}
+  #container1_1{ background-color: black; ; width: 100%; height: 400px;}
+  #container1_2{ background-color: black;width: 100%; height: 500px; display: none;}
+  .container1_1Text{
+    float: right; width: 90%; height: 330px;
+    margin-top: 30px; display: flex; flex-direction: column; margin-right:40px; padding: 20px;}
+
+  .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 30.333%; color: white; }
+  .container1_1TextFlex p{color: rgb(209, 209, 209); font-size: 13px;}
+  .container1_1TextFlex button{width: 130px; height: 45px; background-color:rgb(133, 4, 4);color: white; font-size: 12px; margin-top: 20px; }
+  .container1_1TextFlex button:hover{background-color: rgb(87, 2, 2); transition: 0.5s;}
+  .container1_1TextFlex:nth-child(3){margin-top: 20px;}
+
+  .container2Text{ margin-top: 30px; padding: 17px;}
+  .container2Text h1{font-size: 25px;}
+  .container2Text a{font-size: 14px; font-style:italic; text-decoration: underline;}
+  .container2Text a:hover{color: rgb(133, 4, 4); transition: 0.3s;}
+  .container2_1{width:95% ; height: 400px; margin: 0 auto; position: relative; overflow: hidden;  justify-content: space-between; align-items: center;}
+  .slides{  position: absolute; left: 0; top: 0; width: 3000px;transition: left 0.5s ease-out; z-index: 0; margin-top: 70px;}
+  .slides img:hover{opacity: 0.8; transition: 0.5s;}
+  .slides li{float: left; }
+  
+  .slides li{width: 300px; height: 200px;  text-align: center;}
+  .slides li img{width: 250px; height: 150px; }
+  .slides li img:hover{cursor: pointer;}
+  .slides li p:nth-child(3){color: #777;}
+  .slides li p:nth-child(2){font-size: 20px; font-weight: 550; color: black;}
+  
+  .controls span{ top:10%;  font-size: 25px; color:#fff; line-height: 42px;
+    background: rgba(0,0,0,0.6); cursor: pointer; height: 50px; transform: translateY(-50%); opacity: 0.4;
+     float: right;}  
+    .controls span:hover{opacity: 0.7; transition: 0.5s;}
+  .controls1 span{ top:50%;  font-size: 25px; color:#fff; line-height: 42px;
+      background: rgba(0,0,0,0.6); cursor: pointer; height: 50px; transform: translateY(-50%); opacity: 0.4;
+        }  
+      .controls span:hover{opacity: 0.7; transition: 0.5s;}
+  .controls1 span:nth-last-of-type(1){float: right; margin-top: 100px;}
+  .controls1 span:nth-last-of-type(2){float: left; margin-top: 100px;}
+  #centerimg{width: 100%;height: 250px;}
+  .centerimgText{width: 80%; height: 300px; margin-top: -240px; margin-left: 30px;}
+
+  .centerimgText h1{color: white; font-size: 30px;}
+  .centerimgText p{color: #EAE5DE;}
+
+  #container3{width: 100%; height: 1100px;  display: flex; flex-direction: column; background-color: black;}  .container3Flex1{width: 100%;}
+  .container3Flex2{width: 100%; background-color: black;  color: white; width: 100%; height: 320px; margin-top: 0px; } 
+  .container3Flex2 h2{font-size: 21px;}
+  .container3Flex2 p{font-style: italic; }
+  .container3Flex2Text{margin-left: 10px; padding: 12px; }
+  
+
+  #container4{width: 100%; height: 380px; background-color: #fdfbfb; display: flex; flex-direction: column-reverse; }
+  .container4Flex1{width: 100%; background-color:  #EAE5DE; }
+  .container4Flex2{width: 100%; height: auto; }
+  .container4Flex1Text{width: 90%; height: 300px; padding: 30px;} 
+  .container4Flex1Text p{color: black;}
+  .container4Flex1Text h2{font-size: 17px;}
+  .container4Flex1Text_ul li{list-style: disc; list-style-position: outside; float: left;color: #666; margin-left: 18px; margin-bottom: 15px; font-size: 13px;}
+  .container4Flex1Text_1{margin-bottom: 50px;}
+  .container4Flex1Text_2{width: 100%;}
+  
+  
+  
+  
+  #container5{width: 100%;  background-color:  #fdfbfb;}  
+  .container5Text{width: 90%;  margin-left: 20px; padding-bottom: 50px ;}
   
 }
 
 
 @media(min-width:768px) and (max-width:1024px){  
   h1{font-size: 30px;}
-  #container1{width: 100%; height: 600px; display: flex; margin-top: 80px;}
+  #container1{width: 100%; height: 430px; display: flex; margin-top: 80px;}
   #container1_1{flex-direction: row;flex-basis: 50%; flex-wrap: nowrap; background-color: black; ;}
   #container1_2{flex-direction: row;flex-basis: 50%;  flex-wrap: nowrap; background-color: black;}
   .container1_1Text{
     float: right; width: 90%; height: 400px;
-    margin-top: 150px; display: flex; flex-direction: column; margin-right:40px; padding: 5px;}
+    margin-top: 30px; display: flex; flex-direction: column; margin-right:40px; padding: 5px;}
 
-  .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 50.333%; color: white; }
-  .container1_1TextFlex p{color: rgb(209, 209, 209);}
+  .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 30.333%; color: white; }
+  .container1_1TextFlex p{color: rgb(209, 209, 209); font-size: 13px;}
   .container1_1TextFlex button{width: 130px; height: 45px; background-color:rgb(133, 4, 4);color: white; font-size: 12px; }
-  .container1_1TextFlex button :hover{}
+  .container1_1TextFlex button:hover{background-color: rgb(87, 2, 2); transition: 0.5s;}
+  .container1_1TextFlex:nth-child(3){margin-top: 20px;}
 
   .container2Text{margin: 28px; }
   .container2Text h1{font-size: 32px;}
@@ -110,24 +179,28 @@ footer p{color: rgb(230, 227, 227);}
   .container3Flex2 p{font-style: italic; }
   
 
-  #container4{width: 100%; height: 550px; background-color: #fdfbfb; display: flex; flex-direction: row;}}
+  #container4{width: 100%; height: 550px; background-color: #fdfbfb; display: flex; flex-direction: row;}
   .container4Flex1{width: 100%; background-color:  #EAE5DE;}
   .container4Flex2{width: 103%;}
   .container4Flex1Text{width: 80%; height: 400px; padding: 50px;} 
   .container4Flex1Text p{color: black;}
   .container4Flex1Text h2{font-size: 17px;}
-  .container4Flex1Text_ul li{list-style: disc; list-style-position: outside; float: left;color: #666; margin-left: 42px; margin-bottom: 15px; font-size: 13px;}
+  .container4Flex1Text_ul li{list-style: disc; list-style-position: outside; float: left;color: #666; margin-left: 18px; margin-bottom: 15px; font-size: 13px;}
   .container4Flex1Text_1{margin-bottom: 60px;}
+  .container4Flex1Text_2{width: 100%;}
   
   
   
   #container5{width: 100%; height: 300px; background-color:  #fdfbfb;}  
-  .container5Text{width: 900px; height: 250px; margin-left: 100px;
+  .container5Text{width: 50%; height: 250px; margin-left: 60px;}
   
   }
 
 
+
+
 @media(min-width:1024px){
+  #containerMain{ width: 100%; margin: 0 auto; }
     h1{font-size: 40px;}
     #container1{width: 100%; height: 600px; display: flex; margin-top: 80px;}
     #container1_1{flex-direction: row;flex-basis: 50%; flex-wrap: nowrap; background-color: black; ;}
@@ -136,10 +209,11 @@ footer p{color: rgb(230, 227, 227);}
       float: right; width: 90%; height: 400px;
       margin-top: 150px; display: flex; flex-direction: column; margin-right:40px; padding: 5px;}
 
-    .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 50.333%; color: white; }
+    .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 30.333%; color: white; }
     .container1_1TextFlex p{color: rgb(209, 209, 209);}
     .container1_1TextFlex button{width: 130px; height: 45px; background-color:rgb(133, 4, 4);color: white; font-size: 12px; }
-    .container1_1TextFlex button :hover{}
+    .container1_1TextFlex button:hover{background-color: rgb(87, 2, 2); transition: 0.5s;}
+    .container1_1TextFlex:nth-child(2){margin-top: 10px;}
 
     .container2Text{margin: 28px; }
     .container2Text h1{font-size: 32px;}
@@ -178,31 +252,36 @@ footer p{color: rgb(230, 227, 227);}
     .container3Flex2 h2{font-size: 26px;}
     .container3Flex2 p{font-style: italic; }
 
-    #container4{width: 100%; height: 550px; background-color: #fdfbfb; display: flex; flex-direction: row;}}
+    #container4{width: 100%; height: 550px; background-color: #fdfbfb; display: flex; flex-direction: row;}
     .container4Flex1{width: 100%; background-color:  #EAE5DE;}
     .container4Flex2{width: 103%;}
-    .container4Flex1Text{width: 80%; height: 400px; padding: 50px;} 
+    .container4Flex1Text{width: 80%; height: 400px; padding: 100px;} 
     .container4Flex1Text p{color: black;}
     .container4Flex1Text h2{font-size: 17px;}
-    .container4Flex1Text_ul li{list-style: disc; list-style-position: outside; float: left;color: #666; margin-left: 42px; margin-bottom: 15px; font-size: 13px;}
-    .container4Flex1Text_1{margin-bottom: 60px;}
+    .container4Flex1Text_ul li{list-style: disc; list-style-position: outside; float: left;color: #666; margin-left: 22px; margin-bottom: 15px; font-size: 13px;}
+    .container4Flex1Text_1{margin-bottom: 30px;}
+    .container4Flex1Text_2{width: 100%;}
     
     
     
     #container5{width: 100%; height: 300px; background-color:  #fdfbfb;}  
-    .container5Text{width: 900px; height: 250px; margin-left: 100px; } 
+    .container5Text{width: 900px; height: 250px; margin-left: 60px; } 
+        }
 
+
+    
 
 
     @media(min-width:768px) and (max-width:1100px){
+      #containerMain{ width: 100%; margin: 0 auto; }
       #centerimg{width: 100%;height: 400px;}
       .centerimgText{width: 70%; height: 300px; padding-top :120px; margin-left: 50px;}
       #container3{width: 100%; height: 430px;  display: flex; flex-direction: row; background-color: black;}
       .container3Flex2{width: 100%; background-color: black;  color: white; width: 80%; height: 200px; margin-top: 30px; margin-left: 30px;} 
-      #container4{width: 100%; height: 450px; background-color: #fdfbfb; display: flex; flex-direction: row;}
+      #container4{width: 100%;  background-color: #fdfbfb; display: flex; flex-direction: row;}
       .container4Flex1Text{width: 100%; height: 400px; padding: 30px; } 
       .container4Flex1Text_1{margin-bottom: 30px;}
       
-    }
+      }
 
 
