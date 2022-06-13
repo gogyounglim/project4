@@ -142,6 +142,8 @@ a{text-decoration: none; color: black;}
 }
 
 
+
+
 @media(min-width:312px) and (max-width:1165px){
 	.navText{display: none;}
 	.navText2{display:block;}
