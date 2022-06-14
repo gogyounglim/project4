@@ -76,9 +76,9 @@ footer p{color: rgb(230, 227, 227);}
   .container1_1TextFlex:nth-child(3){margin-top: 20px;}
 
   #container2{height: 500px;}
-  .container2Text{ margin-top: 30px; padding: 17px;}
-  .container2Text h1{font-size: 25px;}
-  .container2Text a{font-size: 14px; font-style:italic; text-decoration: underline;}
+  .container2Text{ margin-top: 30px;}
+  .container2Text h1{font-size: 25px; text-align: center; padding-left: 20px; padding-top: 20px;}
+  .container2Text a{font-size: 14px; font-style:italic; text-decoration: underline; margin-left: 150px ;}
   .container2Text a:hover{color: rgb(133, 4, 4); transition: 0.3s;}
   .container2_1{width:320px ; height: 300px; margin: 0 auto; position: relative; overflow: hidden;  justify-content: space-between; align-items: center;}
   .slides{  position: absolute; left: 0; top: 0; width: 3000px;transition: left 0.5s ease-out; z-index: 0; margin-top: 70px;}
@@ -133,7 +133,7 @@ footer p{color: rgb(230, 227, 227);}
 }
 
 
-@media(min-width:768px) and (max-width:1024px){ 
+@media(min-width:769px) and (max-width:1024px){ 
   #radioBT5{display: none;}
   #radioBT6{display: none;}
   #radioBT7{display: none;}
@@ -147,14 +147,14 @@ footer p{color: rgb(230, 227, 227);}
     margin-top: 30px; display: flex; flex-direction: column; margin-right:40px; padding: 5px;}
 
   .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 30.333%; color: white; }
-  .container1_1TextFlex p{color: rgb(209, 209, 209); font-size: 13px;}
+  .container1_1TextFlex p{color: rgb(209, 209, 209); font-size: 13px; margin-bottom: 20px;}
   .container1_1TextFlex button{width: 130px; height: 45px; background-color:rgb(133, 4, 4);color: white; font-size: 12px; }
   .container1_1TextFlex button:hover{background-color: rgb(87, 2, 2); transition: 0.5s;}
   .container1_1TextFlex:nth-child(3){margin-top: 20px;}
-   #container2{height: 500px;}
+   #container2{height: 600px;}
   .container2Text{margin: 28px; }
   .container2Text h1{font-size: 32px;}
-  .container2Text a{font-size: 14px; font-style:italic; text-decoration: underline;}
+  .container2Text a{font-size: 14px; font-style:italic; text-decoration: underline; }
   .container2Text a:hover{color: rgb(133, 4, 4); transition: 0.3s;}
   .container2_1{width:750px ; height: 400px; margin: 0 auto; position: relative; overflow: hidden;  justify-content: space-between; align-items: center;}
   .slides{  position: absolute; left: 0; top: 0; width: 3000px;transition: left 0.5s ease-out; z-index: 0; margin-top: 70px;}
@@ -204,7 +204,7 @@ footer p{color: rgb(230, 227, 227);}
   
   
   #container5{width: 100%; height: 300px; background-color:  #fdfbfb;}  
-  .container5Text{width: 50%; height: 250px; margin-left: 60px;}
+  .container5Text{width: 80%; height: 250px; margin-left: 60px;}
   
   }
 
@@ -224,12 +224,12 @@ footer p{color: rgb(230, 227, 227);}
       margin-top: 150px; display: flex; flex-direction: column; margin-right:40px; padding: 5px;}
 
     .container1_1TextFlex{width: 100%;  flex-wrap: nowrap; background-color: black; height: 30.333%; color: white; }
-    .container1_1TextFlex p{color: rgb(209, 209, 209);}
+    .container1_1TextFlex p{color: rgb(209, 209, 209); margin-bottom: 50px; }
     .container1_1TextFlex button{width: 130px; height: 45px; background-color:rgb(133, 4, 4);color: white; font-size: 12px; }
     .container1_1TextFlex button:hover{background-color: rgb(87, 2, 2); transition: 0.5s;}
     .container1_1TextFlex:nth-child(2){margin-top: 10px;}
       
-    .container2Text{margin: 28px; }
+    .container2Text{margin: 50px; }
     .container2Text h1{font-size: 32px;}
     .container2Text a{font-size: 14px; font-style:italic; text-decoration: underline;}
     .container2Text a:hover{color: rgb(133, 4, 4); transition: 0.3s;}
@@ -244,12 +244,12 @@ footer p{color: rgb(230, 227, 227);}
     .slides li p:nth-child(3){color: #777;}
     .slides li p:nth-child(2){font-size: 20px; font-weight: 550; color: black;}
     
-    .controls span{ top:10%;  font-size: 25px; color:#fff; line-height: 42px;
+    .controls span{ top:10%;  font-size: 25px; color:#999; line-height: 42px;
       background: rgba(0,0,0,0.6); cursor: pointer; height: 50px; transform: translateY(-50%); opacity: 0.4;
        float: right;}  
       .controls span:hover{opacity: 0.7; transition: 0.5s;}
-    .controls1 span{ top:50%;  font-size: 25px; color:#fff; line-height: 42px;
-        background: rgba(0,0,0,0.6); cursor: pointer; height: 50px; transform: translateY(-50%); opacity: 0.4;
+    .controls1 span{ top:50%;  font-size: 45px; color:rgb(78, 78, 78); line-height: 42px;
+         cursor: pointer; height: 50px; transform: translateY(-50%); opacity: 0.4;
           }  
         .controls span:hover{opacity: 0.7; transition: 0.5s;}
     .controls1 span:nth-last-of-type(1){float: right; margin-top: 100px;}
@@ -269,7 +269,7 @@ footer p{color: rgb(230, 227, 227);}
     #container4{width: 100%; height: 550px; background-color: #fdfbfb; display: flex; flex-direction: row;}
     .container4Flex1{width: 100%; background-color:  #EAE5DE;}
     .container4Flex2{width: 103%;}
-    .container4Flex1Text{width: 100%; height: 400px; padding: 100px;} 
+    .container4Flex1Text{width: 100%; height: 400px; padding: 80px;} 
     .container4Flex1Text p{color: black;}
     .container4Flex1Text h2{font-size: 17px;}
     .container4Flex1Text_ul li{list-style: disc; list-style-position: outside; float: left;color: #666; margin-left: 22px; margin-bottom: 15px; font-size: 13px;}

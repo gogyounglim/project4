@@ -7,6 +7,31 @@
 //       document.getElementById("navbar").style.top = "-80px";
 //     }
 //   }
+$(window).resize(function(){
+    if(window.innerWidth<1024){
+        $('.slides').stop().animate({left:-0},200, function(){
+            $('.slides li:first').appendTo('.slide')
+        });
+    }else if(window.innerWidth>1024){
+        $('.slides').stop().animate({left:-0},200, function(){
+            $('.slides li:first').appendTo('.slide')
+        });
+    }else if(window.innerWidth<768){
+        $('.slides').stop().animate({left:-0},200, function(){
+            $('.slides li:first').appendTo('.slide')
+        });
+    }
+    $('.radiobt button:nth-of-type(1)').css('background-color','rgb(109, 109, 109)')
+    $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+    $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+    $('.radiobt button:nth-of-type(4)').css('background-color','#999')
+    $('.radiobt button:nth-of-type(5)').css('background-color','#999')
+    $('.radiobt button:nth-of-type(6)').css('background-color','#999')
+    $('.radiobt button:nth-of-type(7)').css('background-color','#999')
+
+
+});
+
 
 $(function() {
     $('.next').click(function(){
@@ -35,10 +60,6 @@ $(function() {
     });
 });
 
-if($('.container2_1').css('width')=='320px'){
-}else{
-
-}
 
 
 $(function() {
@@ -55,7 +76,11 @@ $(function() {
             $('.slides').stop().animate({left:-0},200, function(){
                 $('.slides li:first').appendTo('.slide');
             });
-        } 
+        }
+        $('.radiobt button:nth-of-type(1)').css('background-color','rgb(109, 109, 109)')
+        $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(4)').css('background-color','#999') 
 
     });
     $('#radioBT2').click(function(){
@@ -69,6 +94,10 @@ $(function() {
             });
 
         }
+        $('.radiobt button:nth-of-type(1)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(2)').css('background-color','rgb(109, 109, 109)')
+        $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(4)').css('background-color','#999')
         
 
     });
@@ -80,10 +109,14 @@ $(function() {
                 $('.slides li:first').appendTo('.slide');
             });
         }else{
-            $('.slides').stop().animate({left:-1500},200, function(){
+            $('.slides').stop().animate({left:-1520},200, function(){
                 $('.slides li:first').appendTo('.slide');
             });
         }
+        $('.radiobt button:nth-of-type(1)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(3)').css('background-color','rgb(109, 109, 109)')
+        $('.radiobt button:nth-of-type(4)').css('background-color','#999')
 
 
 
@@ -102,6 +135,10 @@ $(function() {
             });
             
         }
+        $('.radiobt button:nth-of-type(1)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(4)').css('background-color','rgb(109, 109, 109)')
 
     });
 
@@ -113,7 +150,11 @@ $(function() {
         }else{
             
         }
-        
+        $('.radiobt button:nth-of-type(1)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(4)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(5)').css('background-color','rgb(109, 109, 109)')
 
     });
 
@@ -126,6 +167,12 @@ $(function() {
         }else{
             
         }
+        $('.radiobt button:nth-of-type(1)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(4)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(5)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(6)').css('background-color','rgb(109, 109, 109)')
 
     });
 
@@ -138,6 +185,14 @@ $(function() {
         }else{
             
         }
+        $('.radiobt button:nth-of-type(1)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(2)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(3)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(4)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(5)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(6)').css('background-color','#999')
+        $('.radiobt button:nth-of-type(7)').css('background-color','rgb(109, 109, 109)')
+
 
     });
 
